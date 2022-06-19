@@ -40,10 +40,10 @@ jobs:
           command: npm audit fix --force
       - run:
           name: Run build
-          command: yarn ng build
+          command: npm run ng build
       - run:
           name: Run test
-          command: yarn ng test --single-run
+          command: npm run ng test --single-run
           
 
 workflows:
