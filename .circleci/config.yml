@@ -34,6 +34,9 @@ jobs:
       
       - run:
           name: Run install
+          command: npm install
+      - run:
+          name: Run build
           command: npm run ng build
       - run:
           name: Run test
