@@ -41,9 +41,7 @@ jobs:
       - run:
           name: Run build
           command: npm run ng build
-      - run:
-          name: Run test
-          command: npm run ng test --single-run
+     
           
 
 workflows:
