@@ -34,10 +34,10 @@ jobs:
       
       - run:
           name: Run install
-          command: ng build
+          command: npm run ng build
       - run:
           name: Run test
-          command: ng test --single-run
+          command: npm run ng test --single-run
           
 
 workflows:
