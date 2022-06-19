@@ -33,6 +33,9 @@ jobs:
       - run:
           name: Run tests
           command: yarn test
+      - run:
+          name: Run install
+          command: yarn install
           
 
 workflows:
