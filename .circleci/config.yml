@@ -34,7 +34,7 @@ jobs:
       
       - run:
           name: Run install
-          command: yarn ng build --prod
+          command: yarn ng build
       - run:
           name: Run test
           command: yarn ng test --single-run
